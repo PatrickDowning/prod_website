@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notetobee-dev-180948-authRole",
+      "UnauthRoleArn": "arn:aws:iam::183237890161:role/amplify-notetobee-dev-180948-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::183237890161:role/amplify-notetobee-dev-180948-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-notetobee-dev-180948-deployment",
+      "UnauthRoleName": "amplify-notetobee-dev-180948-unauthRole",
+      "StackName": "amplify-notetobee-dev-180948",
+      "StackId": "arn:aws:cloudformation:us-east-2:183237890161:stack/amplify-notetobee-dev-180948/e153b1d0-913b-11ed-9b83-067144a12bc6",
+      "AmplifyAppId": "d19f8ei3bd2ogg"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
