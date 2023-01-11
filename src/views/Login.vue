@@ -1,5 +1,14 @@
 <template>
-  <div class="log in">
-    <h1>This is a login page</h1>
+  <div class="login">
+    <div>
+    <h1>Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
   </div>
 </template>
