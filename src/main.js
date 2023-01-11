@@ -4,10 +4,11 @@ import router from './router'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
 import {Amplify, Auth} from "aws-amplify"
-import awsConfig from "@aws-amplify/ui-vue"
+import awsconfig from './aws-exports'
 import "@aws-amplify/ui-vue/styles.css"
 
-Auth.configure(awsConfig);
+Amplify.configure(awsconfig);
+Auth.configure(awsconfig);
 
 loadFonts()
 
